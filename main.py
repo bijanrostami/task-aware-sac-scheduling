@@ -317,9 +317,6 @@ def main() -> None:
             rate_record_tr = np.append(rate_record_tr, total_rate)
             reward_record_tr = np.append(reward_record_tr, episode_reward)
 
-
-
-
     print("Training is finished")
 
     with open("power_refine.pkl", "wb") as f:
