@@ -68,7 +68,7 @@ python main.py
 
 The training script supports various command-line arguments:
 
-- `--env-name`: Environment name (default: QuaDriGa_SAC_KNN)
+- `--env-name`: Environment name (default: Scheduling_SAC)
 - `--policy`: Policy type - Gaussian or Deterministic (default: Gaussian)
 - `--gamma`: Discount factor (default: 0.99)
 - `--tau`: Target smoothing coefficient (default: 0.005)
