@@ -27,7 +27,7 @@ task-aware-sac-scheduling/
 ├── replay_memory.py         # Experience replay buffer
 ├── utils.py                 # Utility functions
 │
-└── InF-S dataset/           # Dataset directory
+└── data/           # Dataset directory
     ├── main_data_generation.py
     └── subnetwork_generate.py
 ```
@@ -85,7 +85,7 @@ python main.py --policy Gaussian --lr 0.0001 --batch_size 128
 
 ## Dataset
 
-The project uses the InF-S dataset for training and evaluation. The dataset generation scripts are located in the `InF-S dataset/` directory:
+The project uses the InF-S dataset for training and evaluation. The dataset generation scripts are located in the `data/` directory:
 
 - `main_data_generation.py`: Main data generation script
 - `subnetwork_generate.py`: Subnetwork generation utilities
