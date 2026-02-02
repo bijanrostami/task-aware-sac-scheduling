@@ -16,7 +16,7 @@ DATASET_DIR = Path("data")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="PyTorch Soft Actor-Critic Args")
-    parser.add_argument("--env-name", default="QuaDriGa_SAC_KNN", help="QuaDriGa_SAC_KNN")
+    parser.add_argument("--env-name", default="Scheduling_SAC", help="Scheduling_SAC")
     parser.add_argument(
         "--policy",
         default="Gaussian",
