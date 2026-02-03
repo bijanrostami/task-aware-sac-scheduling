@@ -45,7 +45,7 @@ See `requirements.txt` for complete dependencies.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/task-aware-sac-scheduling.git
+git clone https://github.com/bijanrostami/task-aware-sac-scheduling.git
 cd task-aware-sac-scheduling
 ```
 
